@@ -1,3 +1,11 @@
+#Simple game to play rock, paper and scissors.
+
+#Key concepts: 
+#- importance of logic 
+#- important of the order on code lines. For example the order of if statements, 
+    #  because stuff at the start will be print firsts, so it is important to prioritize the orders
+    #  on writing the if 
+
 import random 
 rock = '''
     _______
@@ -25,8 +33,6 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-
-#Write your code below this line 👇
 
 game_images = [rock, paper, scissors]
 user_choice = int(input("What do you choose? Type 0 for rock, 1 for Paper or 2 for scissors.\n"))
