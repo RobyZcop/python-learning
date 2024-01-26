@@ -1,6 +1,5 @@
 #Here the main takeaway is how to use functions with outputs and use recursive function
 
-#Calculator
 from art import logo
 
 #Add
